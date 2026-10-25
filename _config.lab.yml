@@ -1,0 +1,29 @@
+# Local development: external demo imports and Twitter embeds are not needed by the workbench.
+# Keep the base site configuration first: --config _config.yml,_config.lab.yml
+external_sources: []
+exclude:
+  - AGENTS.md
+  - al-folio-upgrade-report.md
+  - bin/
+  - CLAUDE.md
+  - Dockerfile
+  - docker-compose.yml
+  - docker-compose-slim.yml
+  - docs/
+  - Gemfile
+  - Gemfile.lock
+  - LICENSE
+  - lighthouse_results/
+  - package.json
+  - package-lock.json
+  - _pages/about_einstein.md
+  - purgecss.config.js
+  - README.md
+  - readme_preview/
+  - gems/
+  - migrations/
+  - vendor
+  - _posts/2020-09-28-twitter.md
+  - node_modules
+  - test
+  - output

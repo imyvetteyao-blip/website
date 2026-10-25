@@ -1,4 +1,10 @@
-# al-folio
+# Lab Preparation Workbench
+
+A browser-local workspace for Buffer Making and S/IS Making, built on this Jekyll site. Includes inventory import, independent calculation tests, reviewed preparation records, JSON transfer, and printable operation sheets. Other Preparation is Coming soon.
+
+For a no-install copy, open [the standalone HTML file](standalone/Lab-Preparation-Workbench.html), click **Download raw file**, and open the downloaded file in your browser. See [standalone instructions](standalone/README.md).
+
+See [startup, usage, tests, and limitations](docs/LAB_WORKBENCH.md). The original academic homepage is retained at `/about/`; original starter documentation follows below.
 
 <div align="center">
 

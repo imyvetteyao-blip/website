@@ -3,13 +3,21 @@
     "lint:prettier": "prettier . --check",
     "lint:style-contract": "node test/style_contract.js",
     "test:visual": "playwright test --config test/visual/playwright.config.js",
-    "test:visual:update": "playwright test --config test/visual/playwright.config.js --update-snapshots"
+    "test:visual:update": "playwright test --config test/visual/playwright.config.js --update-snapshots",
+    "test:lab": "node --test test/lab/*.test.mjs",
+    "test:lab:browser": "playwright test --config test/lab/playwright.config.mjs",
+    "vendor:lab": "node bin/vendor-lab-deps.mjs",
+    "build:lab:standalone": "node bin/build-lab-standalone.mjs"
   },
   "devDependencies": {
     "@playwright/test": "^1.56.1",
     "@shopify/prettier-plugin-liquid": "^1.10.0",
+    "esbuild": "0.25.12",
     "pixelmatch": "^7.1.0",
     "pngjs": "^7.0.0",
     "prettier": "^3.8.0"
+  },
+  "dependencies": {
+    "exceljs": "4.4.0"
   }
 }

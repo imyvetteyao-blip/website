@@ -1,0 +1,23 @@
+---
+layout: null
+permalink: /
+---
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="A local laboratory workbench for buffer and S/IS preparation, calculation review, and reproducible records." />
+    <title>Lab Preparation Workbench</title>
+    <link rel="stylesheet" href="{{ '/assets/css/lab-workbench.css' | relative_url }}" />
+    <script defer src="{{ '/assets/js/lab/vendor/exceljs.min.js' | relative_url }}"></script>
+    <script type="module" src="{{ '/assets/js/lab/app.mjs' | relative_url }}"></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to workbench</a>
+    <div id="app"></div>
+    <div id="toast" class="toast" role="status" aria-live="polite"></div>
+    <noscript>This workbench requires JavaScript for calculations and local record storage.</noscript>
+  </body>
+</html>
